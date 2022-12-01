@@ -60,7 +60,7 @@
 
 ---
 
-<img src="media/pandas.png" alt='pandas' align='left'></img><br/>      
+<img src="media/pandas.png" alt='pandas' align='left'></img><br/>         
 
 
 
