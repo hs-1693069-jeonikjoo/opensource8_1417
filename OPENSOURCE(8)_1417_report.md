@@ -60,7 +60,7 @@
 
 ---
 
-<img src="media/pandas.png" alt='pandas' align='left'></img><br/><br/>
+<img src="media/pandas.png" alt='pandas' align='left'></img><br/><br/><br/><br/><br/><br/>
 
 pandas는 파이썬 언어로 작성된 데이터를 분석 및 조작하기 위한 소프트웨어 라이브러리이다. 행과 열로 이루어진 데이터 객체를 만들어 다룰 수 있게 되며 보다 안정적으로 대용량의 데이터들을 처리하는데 매우 편리하다.<br/>
 
