@@ -80,7 +80,7 @@ Pandas 선정 이유<br/><br/>
 시스템 내 역할<br/><br/>
 공공데이터 기관 서울시 열린 데이터 광장에서 서울시 상권, 추정매출, 유동인구 등의 데이터를 csv파일 형태로 제공하는데,
 
- ###Apache Storm
+ ### Apache Storm
  
 <img src="media/Apache Storm.png" alt='storm' align='left'></img><br/><br/><br/><br/><br/><br/>
 
