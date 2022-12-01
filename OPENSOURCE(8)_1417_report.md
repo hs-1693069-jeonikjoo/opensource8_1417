@@ -2,7 +2,7 @@
 
 ---
 
-<img src="media/MariaDB.png" alt='MariaDB' align='left' width="50%" height="50%"></img><br/><br/><br/><br/><br/>
+<img src="media/MariaDB.png" alt='MariaDB' align='left' width="50%" height="50%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 MariaDB는 MySQL 개발자들이 만든 세계에서 널리 사용되는 관계형 데이터베이스이다.<br/><br/>
 
