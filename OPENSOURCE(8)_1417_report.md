@@ -82,7 +82,7 @@ Pandas 선정 이유<br/><br/>
 
  - ##### 오픈소스 : Apache Storm
  
-<img src="media/Apache Strom.png" alt='storm' align='left'>
+<img src="media/Apache Storm.png" alt='storm' align='left'>
 
   ##### Apache Storm은 실시간 분산 처리기로써 실시간 데이터를 병렬 프로세스로 처리하기 위한 오픈소스 소프트웨어이다.
 
