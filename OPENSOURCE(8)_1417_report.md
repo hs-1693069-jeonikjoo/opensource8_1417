@@ -87,7 +87,7 @@ Pandas 선정 이유<br/>
 
 <DFD 및 데이터 흐름>
 
- <img src="media/DFD.png"></img><br/>  
+ <img src="media/DFD.png"></img><br/><br/>  
 
 <참고문헌 및 출처><br/>
 
