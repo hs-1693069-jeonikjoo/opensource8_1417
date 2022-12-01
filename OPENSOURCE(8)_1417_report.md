@@ -77,7 +77,7 @@ Pandas 특징
 * 데이터를 분석 및 조작을 위한 라이브러리 제공
 * SQL 같은 일반 데이터베이스처럼 데이터를 합치고 관계연산을 수행하는 기능<br>
 
-Pandas 선정 이유<br/>
+Pandas 선정 이유<br/><br/>
 
 시스템 내 역할<br/>
 
@@ -87,7 +87,7 @@ Pandas 선정 이유<br/>
 
 <DFD 및 데이터 흐름>
 
- <img src="media/DFD.png"></img><br/><br/>  
+ <img src="media/DFD.png"></img><br/>
 
 <참고문헌 및 출처><br/>
 
