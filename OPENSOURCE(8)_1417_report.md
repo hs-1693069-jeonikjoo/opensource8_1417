@@ -84,10 +84,10 @@ Pandas 선정 이유<br/><br/>
 
 ---
 
+<img src="media/Billboard_js.png" alt='billboard' align='left' width="50%" height="50%"></img><br/><br><br><br><br>   
+
 Billboard.js는 네이버에서 만든 데이터 시각화 오픈소스 라이브러리로 데이터를 히스토그램, 그래프 등으로 보여주는 기능을 제공한다.<br/>
 기존의 많이 사용되는 시각화 라이브러리인 C3.js가 D3.js를 기반으로 만들어졌지만 D3.js의 최신버전과 호환이 안된다는 점을 보완하기 위해 만들어졌다. <br>
-
-<img src="media/Billboard_js.png" alt='billboard' align='left' width="50%" height="50%"></img><br/><br><br><br><br>   
 
 라이선스 :  MIT라이선스<br/>
 
