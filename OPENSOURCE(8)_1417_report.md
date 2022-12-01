@@ -87,8 +87,8 @@ Pandas 특징
 
 #### 조사  : 이미나   
 
-<img src="media/apachesolr.png" alt='pandas' align='left' width="550" height="300"></img>   
-<br/>
+<img src="media/apachesolr.png" alt='pandas' align='left' width="550" height="280"></img><br/>
+
 ---
 
 ### 라이선스
