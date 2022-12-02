@@ -287,13 +287,25 @@ https://github.com/apache/solr<br>
 
 ### <img src="media/MariaDB.png" alt='MariaDB' align='left' width="30%" height="30%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
+---
+
+<h3>MariaDB 소개</h3>
+
 MariaDB는 MySQL 개발자들이 만든 세계에서 널리 사용되는 관계형 데이터베이스이다.<br/><br/>
 
+---
 
+<h3>라이선스
+    
+</h3>
 
-라이선스 :  GPL v2<br/><br/>
+GPL v2<br/>
 
-MariaDB 특징
+---
+
+<h3>MariaDB 특징
+    
+</h3>
 
 * 관계형 데이터베이스(데이터에 대한 테이블, 행, 열 정보를 구조화)
 * 관계형 DB중 업데이트가 가장 활발하다.
@@ -301,7 +313,12 @@ MariaDB 특징
 * 동일 사양 MySQL보다 빠르다.
 * Amazon RDS(AWS 클라우드)를 통해 효과적으로 서버를 배포, 운영기 가능하다.<br><br/>
 
-MairaDB 선정 이유<br/><br/>
+---
+
+<h3>MairaDB 선정 이유
+    
+</h3>
+
 * MySQL의 특징을 포함하며 꾸준히 업데이트 되고 MariaDB의 실행 프로그램들과 유틸리티는 모두 MySQL과 이름이 동일하여 호환성이 매우 높기 때문에 선정했다.
 * 사용자가 늘어날 시 클라우드 서비스를 이용이 불가피한데 이때, MariaDB가 Amazon 클라우드 서비스를 통해 보다 쉽게 서버를 배포하고 운영이 가능하기 때문에 선정했다.
 시스템 내 역할<br/><br/>
