@@ -51,15 +51,15 @@
 
 <img src="media/pandas.png" alt='pandas' align='left'></img><br/><br/><br/><br/><br/><br/>
 
-<h3>라이선스</h3>
-
-BSD 3-Clause<br/>
-
----
-
 <h3>Pandas 소개</h3>
 
 pandas는 파이썬 언어로 작성된 데이터를 분석 및 조작하기 위한 소프트웨어 라이브러리이다. 행과 열로 이루어진 데이터 객체를 만들어 다룰 수 있게 되며 보다 안정적으로 대용량의 데이터들을 처리하는데 매우 편리하다.<br/>
+
+---
+
+<h3>라이선스</h3>
+
+BSD 3-Clause<br/>
 
 ---
 
@@ -87,15 +87,15 @@ pandas는 파이썬 언어로 작성된 데이터를 분석 및 조작하기 위
 
 ---
 
-### 라이선스
-
-Apache License 2.0
-
----
-
 ### Apache Solr 소개
 
 Apache Solr는 Apache Lucene 라이브러리를 기반의 무료 오픈소스 검색엔진이다. Apache Lucene 서브프로젝트로서 2004년부터 이용이 가능했으며 오늘날 가장 인기 있는 검색엔진 중 하나이다. Java로 작성되었으며 검색 기능을 사용하기 쉽게 제공한다.
+
+---
+
+### 라이선스
+
+Apache License 2.0
 
 ---
 
@@ -219,6 +219,8 @@ https://github.com/apache/solr<br>
 
 <img src="media/Apache Storm.png" alt='storm' width='450' height='150' align='left'></img><br/><br/><br/><br/><br/><br/>
 
+<h3>Apache Storm 소개</h3>
+
   ##### Apache Storm은 실시간 분산 처리기로써 실시간 데이터를 병렬 프로세스로 처리하기 위한 오픈소스 소프트웨어이다.
 
 ---
@@ -287,8 +289,6 @@ https://github.com/apache/solr<br>
 
 ### <img src="media/MariaDB.png" alt='MariaDB' align='left' width="30%" height="30%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
----
-
 <h3>MariaDB 소개</h3>
 
 MariaDB는 MySQL 개발자들이 만든 세계에서 널리 사용되는 관계형 데이터베이스이다.<br/><br/>
@@ -324,6 +324,8 @@ GPL v2<br/>
 시스템 내 역할<br/><br/>
 * 유저가 검색한 내용을 키워드로 정렬화 하여 정렬된 데이터를 행, 열로서 구조화 하며 DB에 저장한다.
 
+---
+
 ### MariaDB 깃허브
 * https://github.com/mariadb
 
@@ -335,12 +337,16 @@ GPL v2<br/>
 
 ### <img src="media/ApacheKafka.png" alt='ApacheKafka' align='left'></img><br/><br/><br/><br/><br/><br/><br/>
 
+<h3>Apache Kafka 소개</h3>
+
 Apache Kafka는 고성능 데이터 파이프라인, 스트리밍 분석, 데이터 통합 및 미션 크리티컬 애피르리케이션을 위한 오픈 소스 분산 이벤트 스트리밍 플랫폼이다.<br/><br/>
 
-
+---
 
 #### 라이선스  
-Apache License 2.0<br/><br/>
+Apache License 2.0<br/>
+
+---
 
 #### Apache Kafka 특징<br/><br/>
 
@@ -348,11 +354,15 @@ Apache License 2.0<br/><br/>
 * 오랜 시간에 걸쳐 액세스하고 재생할 수 있는 데이터의 장기 저장 허용
 * 실시간 스트림 처리를 위해 실시간으로 데이터에 액세스하는 기능 지원<br><br/>
 
+---
+
 #### Apache Kafka의 장점<br/><br/>
 
 * 원활한 메시징 및 스트리밍 기능: 실시간으로 레코드를 게시, 구독, 저장 및 처리하는 고유한 기능을 제공한다.
 * 데이터 재생을 위한 시간 기반 데이터 보존: 클러스터 설정에서 데이터 저장 및 검색에 대한 강력한 접근 방식을 제공한다.
 * 스트림 처리를 위한 기본 접근 방식: 실시간으로 데이터를 이동하고 저장하기위한 기본 접근 방식을 제공한다.<br><br/>
+
+---
 
 #### Apache Kafka 선정 이유<br/><br/>
 
@@ -411,9 +421,13 @@ Billboard.js는 네이버에서 만든 데이터 시각화 오픈소스 라이�
 
 가공된 데이터를 받아서 데이터를 시각화 한 후 사용자에게 제공한다. <br>
 
+---
+
 #### Billboard.js 깃허브
 
 https://github.com/naver/billboard.js
+
+
 
 ---
 
