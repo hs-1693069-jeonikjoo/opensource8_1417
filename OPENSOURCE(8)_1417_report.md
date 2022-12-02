@@ -85,8 +85,6 @@ BSD 3-Clause<br/>
 <img src="media/apachesolr.png" alt='pandas' align='left' width="350" height="170"></img>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
----
-
 ### Apache Solr 소개
 
 Apache Solr는 Apache Lucene 라이브러리를 기반의 무료 오픈소스 검색엔진이다. Apache Lucene 서브프로젝트로서 2004년부터 이용이 가능했으며 오늘날 가장 인기 있는 검색엔진 중 하나이다. Java로 작성되었으며 검색 기능을 사용하기 쉽게 제공한다.
