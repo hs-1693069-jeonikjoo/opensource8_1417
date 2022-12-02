@@ -197,9 +197,10 @@ Apache Solr은 문서를 수집, 저장 및 인덱싱하여 거의 실시간 검
 
 #### Apache Solr 깃허브
 
-https://github.com/apache/solr
+https://github.com/apache/solr<br>
 <strong>DFD 흐름 전개</strong>
 <br><br>
+<img src="media/DFD.png" alt='DFD' align='left'></img>
 &nbsp; DFD설명에 앞서 본 서비스에 적용할 데이터는 다음과 같다.
 <br>
 <li> 휴/폐업 신고 사업자</li>
