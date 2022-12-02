@@ -283,10 +283,9 @@ https://github.com/apache/solr<br>
 
 ---
 
+### 4. MariaDB
 
-
-
-### 4. MariaDB<img src="media/MariaDB.png" alt='MariaDB' align='left' width="30%" height="30%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+### <img src="media/MariaDB.png" alt='MariaDB' align='left' width="30%" height="30%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 MariaDB는 MySQL 개발자들이 만든 세계에서 널리 사용되는 관계형 데이터베이스이다.<br/><br/>
 
@@ -313,7 +312,7 @@ MairaDB 선정 이유<br/><br/>
 
 
 
-### Apache Kafka
+### 5. Apache Kafka
 
 ---
 
@@ -348,7 +347,7 @@ Apache Kafka는 실시간으로 데이터를 분석하고 조치를 취할 수 �
 #### 시스템 내 역할<br/><br/>
 실시간 순위 시스템을 구축할 때 사용자들이 실시간으로 검색하는 데이터들을 받아 분석하여 Apache Storm으로 넘겨주는 중간다리 역할을 한다.<br/><br/>
 
-### Billboard.js
+### 6. Billboard.js
 
 ---
 
