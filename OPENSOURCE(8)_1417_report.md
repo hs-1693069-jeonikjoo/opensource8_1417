@@ -310,13 +310,13 @@ MairaDB 선정 이유<br/><br/>
 ### MariaDB 깃허브
 * https://github.com/mariadb
 
+---
+
 
 
 ### 5. Apache Kafka
 
----
-
-<img src="media/ApacheKafka.png" alt='ApacheKafka' align='left'></img><br/><br/><br/><br/><br/><br/><br/>
+### <img src="media/ApacheKafka.png" alt='ApacheKafka' align='left'></img><br/><br/><br/><br/><br/><br/><br/>
 
 Apache Kafka는 고성능 데이터 파이프라인, 스트리밍 분석, 데이터 통합 및 미션 크리티컬 애피르리케이션을 위한 오픈 소스 분산 이벤트 스트리밍 플랫폼이다.<br/><br/>
 
@@ -347,11 +347,9 @@ Apache Kafka는 실시간으로 데이터를 분석하고 조치를 취할 수 �
 #### 시스템 내 역할<br/><br/>
 실시간 순위 시스템을 구축할 때 사용자들이 실시간으로 검색하는 데이터들을 받아 분석하여 Apache Storm으로 넘겨주는 중간다리 역할을 한다.<br/><br/>
 
-### 6. Billboard.js
-
 ---
 
-<img src="media/Billboard_js.png" alt='billboard' align='left' width="50%" height="50%"></img><br/><br><br><br><br>   
+### 6. Billboard.js<img src="media/Billboard_js.png" alt='billboard' align='left' width="50%" height="50%"></img><br/><br><br><br><br>   
 
 Billboard.js는 네이버에서 만든 데이터 시각화 오픈소스 라이브러리로 데이터를 히스토그램, 그래프 등으로 보여주는 기능을 제공한다.<br/>
 기존의 많이 사용되는 시각화 라이브러리인 C3.js가 D3.js를 기반으로 만들어졌지만 D3.js의 최신버전과 호환이 안된다는 점을 보완하기 위해 만들어졌다. <br>
