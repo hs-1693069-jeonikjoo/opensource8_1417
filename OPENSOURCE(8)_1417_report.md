@@ -199,7 +199,8 @@ Apache Solr은 문서를 수집, 저장 및 인덱싱하여 거의 실시간 검
 
 https://github.com/apache/solr<br>
 
-
+<hr>
+<br>
 
 <h1> Leaflet.js </h1>
 <li> License : BDS-2 </il>
