@@ -1,3 +1,8 @@
+<h1>시스템 설계서</h1>
+
+오픈소스 소프트웨어 14_17조
+
+
 <hr>
 <strong>Ⅰ. 개요</strong>
 <br><br>
@@ -37,40 +42,48 @@
 &nbsp; 해당 서비스의 목적은 서비스 이용자에게 상권 분석과 분류별 실시간 업종 순위를 시작적으로 제공함이다. 따라서 상권에 대한 전반적인 데이터와 위치 데이터를 필요로 하고 해당 데이터들을 통합하여 관리할 데이터베이스가 필요할 것이다. 
 <br>
 &nbsp;또한 '상권 데이터 분석 결과'와 '실시간 순위'를 위해 검색엔진과 입력 값을 실시간으로 처리하기 위한 소프트웨어, 이를 시각적으로 제공할 오픈소스들이 필요할 것으로 예상한다.
-<hr>
-  <h2>서비스 설계에 필요한 오픈소스 소개 1~7</h2><br/><br/>
+<hr><br>
 
-### Pandas
 
----
+  <h2>서비스 설계에 필요한 오픈소스 소개 1~7</h2>
+
+<h3>1. Pandas</h3>
 
 <img src="media/pandas.png" alt='pandas' align='left'></img><br/><br/><br/><br/><br/><br/>
 
-pandas는 파이썬 언어로 작성된 데이터를 분석 및 조작하기 위한 소프트웨어 라이브러리이다. 행과 열로 이루어진 데이터 객체를 만들어 다룰 수 있게 되며 보다 안정적으로 대용량의 데이터들을 처리하는데 매우 편리하다.<br/><br/>
+<h3>라이선스</h3>
 
+BSD 3-Clause<br/>
 
+---
 
-라이선스 :  BSD 3-Clause<br/><br/>
+<h3>Pandas 소개</h3>
 
-Pandas 특징
+pandas는 파이썬 언어로 작성된 데이터를 분석 및 조작하기 위한 소프트웨어 라이브러리이다. 행과 열로 이루어진 데이터 객체를 만들어 다룰 수 있게 되며 보다 안정적으로 대용량의 데이터들을 처리하는데 매우 편리하다.<br/>
+
+---
+
+<h3>Pandas 특징</h3>
 
 * 파이썬에서 가장 널리 사용되는 데이터 분석 라이브러리로, R에서 사용되던 data.frame 구조를 본뜬 데이터 프레임(DataFrame) 이라는 자료구조를 사용
 * 데이터 프레임은 엑셀의 스프레드시트와 유사한 형태이며 파이썬으로 데이터를 쉽게 처리할 수 있음
 * 데이터를 분석 및 조작을 위한 라이브러리 제공
-* SQL 같은 일반 데이터베이스처럼 데이터를 합치고 관계연산을 수행하는 기능<br><br/>
+* SQL 같은 일반 데이터베이스처럼 데이터를 합치고 관계연산을 수행하는 기능<br>
 
-Pandas 선정 이유<br/><br/>
+---
 
-시스템 내 역할<br/><br/>
-공공데이터 기관 서울시 열린 데이터 광장에서 서울시 상권, 추정매출, 유동인구 등의 데이터를 csv파일 형태로 제공하는데, pandas를 통해 csv파일을 DB에 쉽게 저장할 수 있다.<br/><br/>
+<h3>서비스 내 역할</h3>
 
+공공데이터 기관인 서울시 열린 데이터 광장에서는 서울시 상권, 추정매출, 유동인구 등의 데이터를 csv파일 형태로 제공하는데, 서비스 내에서는 해당 데이터의 분석, 정렬 등의 처리에 용이하게 하기 위해 Pandas 라이브러리를 통해 csv 파일을 DataFrame 객체에 담아 DB에 저장 하는 과정을 거친다.<br/>
 
-# Apache Solr
+---
 
-#### 조사  : 이미나   
+<h3>2. Apache Solr</h3>
 
-<img src="media/apachesolr.png" alt='pandas' align='left' width="550" height="280"></img>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<h4>조사  : 이미나</h4>   
+
+<img src="media/apachesolr.png" alt='pandas' align='left' width="350" height="170"></img>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ---
 
@@ -150,12 +163,7 @@ Apache Solr은 문서를 수집, 저장 및 인덱싱하여 거의 실시간 검
 
 - 포괄적인 관리 인터페이스
 
-
-
- 
-<DFD 및 데이터 흐름>
-=======
-  기록 관리, 추가, 삭제, 업데이트 또는 검색과 같은 관리 태스크를 수행할 수 있는 자동 응답식 사용자 인터페이스를 제공한다.
+  기록 관리, 추가, 삭제, 업데이트 또는 검색과 같은 관리 태스크를 수행할 수 있는 자동 응답식 사용자 인터페이스를 제공한다.	
 
 
 
@@ -202,18 +210,26 @@ Apache Solr은 문서를 수집, 저장 및 인덱싱하여 거의 실시간 검
 
 https://github.com/apache/solr<br>
 
+---
 
- ### Apache Storm
- 
-<img src="media/Apache Storm.png" alt='storm' align='left'></img><br/><br/><br/><br/><br/><br/>
+
+
+
+ ### 3. Apache Storm
+
+<img src="media/Apache Storm.png" alt='storm' width='450' height='150' align='left'></img><br/><br/><br/><br/><br/><br/>
 
   ##### Apache Storm은 실시간 분산 처리기로써 실시간 데이터를 병렬 프로세스로 처리하기 위한 오픈소스 소프트웨어이다.
 
-  
+---
 
-- ##### 라이센스 : Apache License 2.0
+<h3>라이선스</h3>
 
-  
+##### Apache License 2.0
+
+---
+
+
 
 - **Apache Storm** **구조 및 구성요소**
 
@@ -265,12 +281,12 @@ https://github.com/apache/solr<br>
 
 - ##### 저장소  :  git-wip-us.apache.org/repos/asf/storm.git
 
-
-### MariaDB
-
 ---
 
-<img src="media/MariaDB.png" alt='MariaDB' align='left' width="30%" height="30%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+### 4. MariaDB<img src="media/MariaDB.png" alt='MariaDB' align='left' width="30%" height="30%"></img><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 MariaDB는 MySQL 개발자들이 만든 세계에서 널리 사용되는 관계형 데이터베이스이다.<br/><br/>
 
@@ -291,7 +307,7 @@ MairaDB 선정 이유<br/><br/>
 * 사용자가 늘어날 시 클라우드 서비스를 이용이 불가피한데 이때, MariaDB가 Amazon 클라우드 서비스를 통해 보다 쉽게 서버를 배포하고 운영이 가능하기 때문에 선정했다.
 시스템 내 역할<br/><br/>
 * 유저가 검색한 내용을 키워드로 정렬화 하여 정렬된 데이터를 행, 열로서 구조화 하며 DB에 저장한다.
- 
+
 ### MariaDB 깃허브
 * https://github.com/mariadb
 
@@ -363,9 +379,7 @@ Billboard.js는 네이버에서 만든 데이터 시각화 오픈소스 라이�
 
 https://github.com/naver/billboard.js
 
-<참고문헌 및 출처><br/><br/>
-네이버에서 제공하는 Billboard.js 정보 사이트<br>
-https://naver.github.io/billboard.js/ <br>
+
 
 
 <strong>DFD 흐름 전개</strong>
