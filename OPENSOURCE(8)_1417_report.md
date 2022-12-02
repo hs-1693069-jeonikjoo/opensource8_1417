@@ -349,12 +349,24 @@ Apache Kafka는 실시간으로 데이터를 분석하고 조치를 취할 수 �
 
 ---
 
-### 6. Billboard.js<img src="media/Billboard_js.png" alt='billboard' align='left' width="50%" height="50%"></img><br/><br><br><br><br>   
+### 6. Billboard.js
+
+
+
+### <img src="media/Billboard_js.png" alt='billboard' align='left' width="350" height="90"></img><br/><br><br><br><br>   
+
+<h3>Billboard.js 소개</h3>
 
 Billboard.js는 네이버에서 만든 데이터 시각화 오픈소스 라이브러리로 데이터를 히스토그램, 그래프 등으로 보여주는 기능을 제공한다.<br/>
 기존의 많이 사용되는 시각화 라이브러리인 C3.js가 D3.js를 기반으로 만들어졌지만 D3.js의 최신버전과 호환이 안된다는 점을 보완하기 위해 만들어졌다. <br>
 
-라이선스 :  MIT라이선스<br/>
+---
+
+<h3>라이선스 </h3>
+
+ MIT라이선스
+
+---
 
 ####Billboard.js 특징 및 기능
 
@@ -364,10 +376,14 @@ Billboard.js는 네이버에서 만든 데이터 시각화 오픈소스 라이�
 * D3.js의 최신버전과 호환가능하다.
 * 모바일 환경도 지원한다.
 
+---
+
 ####Billboard.js 선정 이유<br/>
 우리가 만드려는 서비스는 필요한 데이터를 가공한 후 사용자에게 보여줄 때 데이터 시각화 오픈소스가 필요했다. <br>
 데이터 시각화 오픈소스는 종류가 다양했는데 그 중에서 Billboard.js는 많은 부분을 자동으로 처리해주기 때문에 사용하기 쉽고
 다른 라이브러리보다 더 빠르고 가볍기 때문에 선정했다. <br>
+
+---
 
 ####시스템 내 역할<br/>
 가공된 데이터를 받아서 데이터를 시각화 한 후 사용자에게 제공한다. <br>
