@@ -80,7 +80,6 @@ BSD 3-Clause<br/>
 
 <h3>2. Apache Solr</h3>
 
-<h4>조사  : 이미나</h4>   
 
 <img src="media/apachesolr.png" alt='pandas' align='left' width="350" height="170"></img>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
